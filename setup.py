@@ -13,7 +13,7 @@ with open('README.txt') as f:
 import os
 import imp
 
-version_file = os.path.abspath('asana/version.py')
+version_file = os.path.abspath('pyblish/asana/version.py')
 version_mod = imp.load_source('version', version_file)
 version = version_mod.version
 
