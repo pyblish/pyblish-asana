@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""This setup script packages pyblish.asana"""
+"""This setup script packages pyblish-asana"""
 
 from setuptools import setup, find_packages
 
@@ -32,12 +32,11 @@ classifiers = [
 
 
 setup(
-    name='pyblish.asana',
-    namespace_packages=['pyblish'],
+    name='pyblish-asana',
     version=version,
     packages=find_packages(),
     package_dir={'pyblish': 'pyblish'},
-    url='https://github.com/abstractfactory/pyblish.asana',
+    url='https://github.com/abstractfactory/pyblish-asana',
     license='LGPL',
     author='Marcus Ottosson',
     author_email='marcus@abstractfactory.io',
