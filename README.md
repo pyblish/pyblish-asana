@@ -1,6 +1,6 @@
 # ![Pyblish Asana][logo]
 
-The Foundry Asana integration of Pyblish
+Asana integration of Pyblish
 
 ### Getting started
 
